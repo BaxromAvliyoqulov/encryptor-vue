@@ -4,12 +4,10 @@
 
 <script>
 	import Login from "./components/Login.vue";
-	import EncryptDecryptForm from "./components/EncryptDecryptForm.vue";
 
 	export default {
 		components: {
 			Login,
-			EncryptDecryptForm,
 		},
 	};
 </script>

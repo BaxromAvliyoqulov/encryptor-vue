@@ -2,6 +2,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Login from "../components/Login.vue";
 import Home from "../components/Home.vue";
+import Encrypt from "../pages/Encrypt.vue";
+import Decrypt from "../pages/Decrypt.vue";
 
 const routes = [
 	{
@@ -14,6 +16,16 @@ const routes = [
 		name: "Home",
 		component: Home,
 		meta: { requiresAuth: true },
+	},
+	{
+		path: "/encrypt",
+		name: "Encrypt",
+		component: Encrypt,
+	},
+	{
+		path: "/decrypt",
+		name: "Decrypt",
+		component: Decrypt,
 	},
 ];
 
